@@ -22,11 +22,11 @@
     </properties>
 
     <dependencies>
-        <!--   引入eureka客户端     -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
+<!--        &lt;!&ndash;   引入eureka客户端     &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>com.power.springcloud</groupId>
             <artifactId>cloud-api-commons</artifactId>
