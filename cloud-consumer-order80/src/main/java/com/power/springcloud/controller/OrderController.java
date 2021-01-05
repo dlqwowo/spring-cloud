@@ -21,9 +21,9 @@ public class OrderController {
 
     @GetMapping("/selectById/{id}")
     public CommonResult<Payment> selectById(@PathVariable Long id) {
-        ResponseEntity<Payment> forEntity = restTemplate.getForEntity("http://localhost:8001/selectById/1", Payment.class);
-        Payment payment = forEntity.getBody();
-        return new CommonResult<Payment>(200, "ok");
+        ResponseEntity<CommonResult> forEntity = restTemplate.getForEntity("http://cloud-payment-service/selectById/1", CommonResult.class);
+        CommonResult<Payment> body = forEntity.getBody();
+        return body;
     }
 
 }

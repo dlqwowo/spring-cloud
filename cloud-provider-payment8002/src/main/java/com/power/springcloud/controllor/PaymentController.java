@@ -23,7 +23,7 @@ public class PaymentController {
         CommonResult<Payment> result = new CommonResult<>();
         result.setCode(200);
         result.setData(payment);
-        result.setMessage("ok");
+        result.setMessage("8002");
         return result;
     }
 }

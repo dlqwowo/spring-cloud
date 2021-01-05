@@ -2,7 +2,7 @@ server:
   port: 7001
 spring:
   application:
-    name: eureka-server1
+    name: eureka-server
 eureka:
   instance:
     hostname: eureka-server1
