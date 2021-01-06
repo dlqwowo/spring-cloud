@@ -13,6 +13,7 @@ public class RestConfig {
 
     @Bean
     @LoadBalanced
+    // RestTemplate自带的负载均衡
     public RestTemplate restTemplate() {
         return new RestTemplate();
     }
